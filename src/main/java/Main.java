@@ -3,4 +3,9 @@ public class Main {
         Thread myThread = new Thread();
         myThread.run();
     }
+
+    @Override
+    public String toString() {
+        return null;
+    }
 }
