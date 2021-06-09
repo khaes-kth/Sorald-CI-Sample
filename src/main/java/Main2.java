@@ -1,7 +1,7 @@
 public class Main2 {
     public static void main(String[] args) {
         Thread myThread = new Thread();
-        myThread.run();
+        myThread.start();
     }
 
     @Override
